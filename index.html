@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main-container">
+        <div class="contact-form-container">
+            <div class="form-heading">
+                <h2>Contact Us</h2>
+            </div>
+
+            <div class="form-container">
+                <form id="form-container">
+                    <div class="first-form-group">
+                        <div class="form-group1">
+                            <div class="label">
+                                <label for="firstname">First Name</label>
+                            </div>
+                            <div class="first-name-input7">
+                                <input type="text" id="firstname" name="firstname">
+                            </div>
+                            <p class="firstname-alert" id="firstname-alert"></p>
+                        </div> 
+
+                        <div class="form-group1">
+                            <div class="label">
+                                <label for="lastname">Last Name</label>
+                            </div>
+                            <div class="first-name-input8">
+                                <input type="text" id="lastname" name="lastname">
+                            </div>
+                            <p class="lastname-alert" id="lastname-alert"></p>
+                        </div> 
+                    </div> 
+
+                    <div class="form-group1">
+                        <div class="label">
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="input2">
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <p class="email" id="email-alert"></p>
+                    </div> 
+
+                    <div class="second-form-group">
+                            <div class="label">
+                                <label for="querytype">Query Type</label>
+                            </div>
+
+                        <div class="form-group3" id="select-an-option">
+                            <div class="input1">
+                                <label for="options">  
+                                </label> 
+                                <input type="radio" id="options" name="options"> General Enquiry  
+                            </div>
+                            
+                            <div class="input3">
+                                <label for="option1" >  
+                                </label> 
+                                <input type="radio" id="option1" name="option1"> Support Request  
+                            </div>
+
+                        </div> 
+                        <p class="query-alert" id="query-alert"></p>
+                    </div> 
+
+                    <div class="form-group1">
+                        <div class="label">
+                            <label for="message">Message</label>
+                        </div>
+                        <div class="input4">
+                            <textarea type="text" name="message" id="message"></textarea>
+                        </div>
+                        <p class="message" id="message-alert"></p>
+                    </div> 
+
+                    <div class="form-group5">
+                        <div class="checkbox">
+                            <input type="checkbox" id="checkbox" name="options"> 
+                        </div>
+                        
+                        <div class="text">
+                            <p>I consent to being contacted by the team</p>  
+                        </div>
+                        <p class="checkbox" id="checkbox-alert"></p>
+                    </div> 
+                    <div class="button">
+                        <button type="submit" id="button">Submit</button>
+                    </div>
+                    <div class="form-alert" id="form-alert1">
+                        <div class="message-sent-and-icon">
+                            <div class="message-sent-icon"><i class="fa-regular fa-circle-check"></i></div>
+                            <div class="message-sent"><p>Message Sent!</p></div>
+        
+                        </div>
+                        <p class="form-alert-p" id="form-alert">Thank you for completing the form</p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

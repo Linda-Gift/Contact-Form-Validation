@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Karla", sans-serif;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: #E0F1E7;
+    padding: 8rem 4rem 3rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    position: relative
+
+}
+
+.contact-form-container{
+    width: 37%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1.5rem;
+
+}
+
+.form-container{
+    width: 100%;
+    height: auto;
+}
+
+form{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+}
+
+.form-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.6rem;
+}
+
+.form-group1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+
+.first-form-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+}
+
+.second-form-group{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+}
+.form-group3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+}
+
+.form-group5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+label{
+    color: #1d1d1d;
+    font-size: 14px;
+}
+.first-name-input7, .first-name-input8{
+    width: 100%;
+    height: auto;
+}
+.first-name-input7 input{
+    width: 100%;
+    height: auto;
+    padding: 0.8rem;
+    outline: none;
+    border: none;
+    border: 2px solid #e1e1e1;
+    border-radius: 0.2rem;
+}
+
+.first-name-input8 input{
+    width: 100%;
+    height: auto;
+    padding: 0.8rem;
+    outline: none;
+    border: none;
+    border: 2px solid #e1e1e1;
+    border-radius: 0.2rem;
+}
+
+.firstname-alert, .lastname-alert, .message, .email, .checkbox{
+    font-style: italic;
+    font-weight: 400;
+    color: red;
+}
+
+.email{
+    font-style: italic;
+    font-weight: 400;
+    color: red;
+}
+.first-name-input7 input:hover, .first-name-input8 input:hover{
+    border: 2px solid #0C7D69; 
+    cursor: pointer; 
+}
+
+.input1, .input3{
+    width: 240px;
+    height: 28px;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border: 2px solid #e1e1e1;
+    border-radius: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.input1:hover, .input3:hover{
+    border: 2px solid #0C7D69;
+    cursor: pointer;
+}
+
+#option1:hover{
+    background-color: #0C7D69;
+}
+
+.input2{
+    width: 100%;
+    height: auto;
+}
+.input2 input{
+    width: 100%;
+    height: Auto;
+    padding: 0.8rem;
+    outline: none;
+    border: none;
+    border: 2px solid #e1e1e1;
+    border-radius: 0.2rem;
+}
+
+.input2 input:hover{
+    border: 2px solid #0C7D69;
+    cursor: pointer;
+}
+
+.input4{
+    width: 100%;
+    height: auto;
+}
+.input4 textarea{
+    width: 100%;
+    height: auto;
+    padding: 1rem 1rem 10rem 1rem;
+    outline: none;
+    border: none;
+    border: 2px solid #e1e1e1;
+    border-radius: 0.2rem;
+}
+
+.input4 textarea:hover{
+    border: 2px solid #0C7D69;
+    cursor: pointer;
+}
+
+.buttton{
+    width: 100%;
+    height: auto;
+}
+
+.button button{
+    width: 100%;
+    height: auto;
+    background-color: #063F36;
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: #0C7D69;
+}
+.button button:active{
+    background-color: #0C7D69;
+}
+
+.form-alert{
+    width: 25%;
+    height: auto;
+    background-color: #063F36;
+    color: #ffffff;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 0.8rem;
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.8rem;
+    position:absolute;
+    top: 2.8rem;
+    left: 38rem
+}
+
+.message-sent-and-icon{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-left: 0.8rem;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem; 
+}
+.message-sent p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.form-alert-p{
+    padding-left: 0.8rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: #d8d6d6;
+}
+
+
+@media screen and (max-width: 375px){
+    .main-container{
+        width: 100%;
+        height: auto;
+        background-color: #E0F1E7;
+        padding: 7rem 1rem 3rem 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .contact-form-container{
+        width: 90%;
+        height: auto;
+        background-color: #ffffff;
+        border-radius: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1.5rem;
+    
+    }
+    
+    .form-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    
+    form{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: start;
+        align-items: start; */
+        row-gap: 2rem;
+    }
+
+    .first-form-group{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 1rem;
+    }
+
+    .form-group1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .first-name-input7, .first-name-input8{
+        width: 100%;
+        height: auto;
+    }
+    .first-name-input7 input, .first-name-input8 input{
+        width: 100%;
+        height: auto;
+        padding: 0.8rem;
+        outline: none;
+        border: none;
+        border: 2px solid #e1e1e1;
+        border-radius: 0.2rem;
+    }
+
+    .form-group3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 0.8rem;
+        flex-wrap: wrap;
+    }
+
+    .input2 input{
+        width: 100%;
+        height: auto;
+        padding-left: 1rem;
+        outline: none;
+        border: none;
+        border: 2px solid #e1e1e1;
+        border-radius: 0.2rem;
+    }
+   
+    .input4{
+        width: 100%;
+        height: auto;
+    }
+    .input4 textarea{
+        width: 100%;
+        height: auto;
+        padding: 1rem 1rem 10rem 1rem;
+        outline: none;
+        border: none;
+        border: 2px solid #e1e1e1;
+        border-radius: 0.2rem;
+    }
+
+    .button button{
+        width: 100%;
+        height: auto;
+        background-color: #063F36;
+        color: #ffffff;
+        padding: 0.8rem;
+        font-size: 1rem;
+        font-weight: 600;
+        outline: none;
+        border: none;
+        border-radius: 0.4rem;
+        cursor: pointer;
+    }
+
+    .form-alert{
+        width: 70%;
+        height: auto;
+        background-color: #063F36;
+        color: #ffffff;
+        padding: 1rem 0rem 1rem 1rem;
+        border-radius: 0.8rem;
+        display: none;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        row-gap: 0.8rem;
+        position:absolute;
+        top: 2.1rem;
+        left: 3.5rem
+    }
+    
+    .message-sent-and-icon{
+        width: 100%;
+        height: auto;
+        display: flex;
+        padding-left: 0.8rem;
+        flex-direction: row;
+        justify-content: start;
+        align-items: start;
+        column-gap: 1rem; 
+    }
+    .message-sent p{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .form-alert-p{
+        padding-left: 0.8rem;
+        font-size: 11px;
+        font-weight: 500;
+        color: #d8d7d7;
+    }
+}
